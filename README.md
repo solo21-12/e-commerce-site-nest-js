@@ -1,6 +1,6 @@
 # E-Commerce Site
 
-A robust e-commerce platform built with NestJS and MongoDB.
+**E-Commerce Site** is a comprehensive online shopping platform developed using NestJS and MongoDB. It features a robust backend architecture for managing products, orders, and user accounts, providing a scalable and secure solution. With capabilities for product listings, user authentication, and order processing, this platform is designed to deliver a seamless and efficient shopping experience.
 
 ## Getting Started
 
@@ -19,18 +19,18 @@ A robust e-commerce platform built with NestJS and MongoDB.
 
 3. **Configure Environment**
 
-   Create a `.env` file in the root directory with the following variables:
+   Create a `.env` file with:
 
    ```env
-   MONGODB_URL=mongodb://localhost:27017/ecommerce
-   MONGODB_DATABASE_NAME=your_database_name
-   MONGODB_PASSWORD=your_password
-   JWT_SECRET=your_jwt_secret
-   SESSION_KEY=your_session_key
-   CLIENT_URL=http://localhost:3000
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-   CLOUDINARY_NAME=your_cloudinary_name
+   MONGODB_PASSWORD=
+   MONGODB_DATABASE_NAME
+   JWT_SECRET
+   MONGODB_URL
+   SESSION_KEY
+   CLIENT_URL
+   CLOUDINARY_API_KEY
+   CLOUDINARY_API_SECRET
+   CLOUDINARY_NAME
    ```
 
 4. **Run the Application**
@@ -53,6 +53,10 @@ A robust e-commerce platform built with NestJS and MongoDB.
    ```bash
    npm run test
    ```
+
+## Documentation
+
+For detailed API documentation, visit [Postman Documentation](https://documenter.getpostman.com/view/22911710/2sA3rzKt5e).
 
 ## Contributing
 
